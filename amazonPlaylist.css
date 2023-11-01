@@ -1,0 +1,56 @@
+body{
+    background-color: #000000; 
+    padding-bottom: 1000px;
+    min-width:520px;
+}body::-webkit-scrollbar{
+    width: 0;
+}.home-button{
+    position: absolute ;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+}.sign-removed{
+    position: absolute;
+    font-size: 18px;
+    bottom: 80px;
+    right: 60px;
+    position: fixed;
+    color: #46ac0b;
+    opacity: 0;
+    transition: opacity 0.3s;
+}.js-removed{
+    opacity: 1;
+}
+.playList{
+    margin-top: 120px;
+}.Song-list{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+}
+.singer-info-playlist{
+    font-size: 16px;
+    color: #757373;
+}.count{
+    color: white;
+    margin-left: 13px;
+}.add .remove-library{
+    position: absolute;
+    background-color: #ada8a8;
+    font-size: 11px;
+    white-space: nowrap;
+    top: 40px;
+    left: 0;
+    padding: 1px 2px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+}.add:hover .remove-library{
+    opacity: 1;
+}
+    
+    
+    
+    
